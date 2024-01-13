@@ -268,3 +268,65 @@ p {
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 809px;
+    position: unset;
+    border-radius: 0px;
+  }
+  .Your_Result {
+    width: 375px;
+    height: 356px;
+    border-radius: 0px 0px 32px 32px;
+    background: var(
+      --Gradient-1,
+      linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%)
+    );
+    box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+  }
+
+  .circle {
+    margin-left: 62px
+  }
+  .first-number {
+    font-size: 56px;
+  }
+  
+  .second-number {
+    font-size: 16px;
+  }
+  .score{
+    left: 45%;
+    top: 45%;
+  }
+  .main_svg{
+    width: 140px;
+    height: 140px;
+  }
+  .title_great {
+  }
+
+  .left_text {
+  }
+
+  .title_left {
+    font-size: 18px;
+  }
+  
+  .title_great {
+    font-size: 24px;
+    margin-top: 0px
+  }
+
+  .left_text {
+    font-size: 16px;
+  }
+  .Summary {
+    width: 375px;
+    height: 809px;
+  }
+}
